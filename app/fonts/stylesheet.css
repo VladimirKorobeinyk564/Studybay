@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Core Sans A 15';
+    src: url('CoreSansA15Thin.woff2') format('woff2'),
+        url('CoreSansA15Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 75';
+    src: url('CoreRhino75Heavy.woff2') format('woff2'),
+        url('CoreRhino75Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 55';
+    src: url('CoreSansA55Medium.woff2') format('woff2'),
+        url('CoreSansA55Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 45';
+    src: url('CoreSansA45Regular.woff2') format('woff2'),
+        url('CoreSansA45Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 65';
+    src: url('CoreSansA65Bold.woff2') format('woff2'),
+        url('CoreSansA65Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 45';
+    src: url('CoreRhino45Regular.woff2') format('woff2'),
+        url('CoreRhino45Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 55';
+    src: url('CoreRhino55Medium.woff2') format('woff2'),
+        url('CoreRhino55Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 35';
+    src: url('CoreRhino35Light.woff2') format('woff2'),
+        url('CoreRhino35Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 75';
+    src: url('CoreSansA75ExtraBold.woff2') format('woff2'),
+        url('CoreSansA75ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Sans A 35';
+    src: url('CoreSansA35Light.woff2') format('woff2'),
+        url('CoreSansA35Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 65';
+    src: url('CoreRhino65Bold.woff2') format('woff2'),
+        url('CoreRhino65Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Core Rhino 25';
+    src: url('CoreRhino25Thin.woff2') format('woff2'),
+        url('CoreRhino25Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+

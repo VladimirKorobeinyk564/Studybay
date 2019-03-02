@@ -1,0 +1,163 @@
+@import "vars"
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+	body.ishome
+		#my-header
+			.site-header
+				.header-content
+					h2
+						font-size: 50px
+					p, .form-paragraph
+						font-size: 20px
+
+/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+	body.ishome
+		#my-header
+			.site-header
+				background-image: none !important
+				background: #f3fafb
+				.header-content
+					h2
+						font-size: 50px
+					p, .form-paragraph
+						font-size: 20px
+					.header-form
+						.header-button
+							margin-top: 20px
+		#my-content
+			.education
+				.education-card
+					flex-wrap: wrap
+					.card
+						margin: 10px auto
+
+						h4
+							font-size: 16px
+						p
+							line-height: 26px
+
+
+/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+	body.ishome
+		#my-header
+			.site-header
+				.header-content
+					text-align: center
+					margin-top: 40px
+					.header-form
+						input, .assignment-input,
+						.email-input, .header-button
+							width: 80%
+							margin:
+								left: 0
+								right: 0
+								top: 10px
+								bottom: 10px
+				.header-menu
+					.logo
+						width: 100%
+						text-align: center
+					.user-menu, .online-block
+						display: none
+					.user-icon
+						display: block
+						position: absolute
+						top: 20px
+						right: 20px
+						img
+							width: 26px
+							height: 26px
+/**/
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px)
+	body.ishome
+		#my-header
+			.site-header
+				.header-content
+					h2
+						font-size: 32px
+						line-height: 30px
+					p, .form-paragraph
+						font-size: 18px
+						line-height: 26px
+					.form-paragraph
+						margin-top: 10px
+					.header-form
+						input, .assignment-input,
+						.email-input, .header-button
+							width: 100%
+		#my-content
+			.education
+				h2
+					font-size: 28px
+					line-height: 25px
+				p
+					line-height: 25px
+					font-size: 18px
+
+				.education-card
+					.card
+						width: 100%
+			
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+
+// ≥768px
++media-breakpoint-down(sm)
+
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
