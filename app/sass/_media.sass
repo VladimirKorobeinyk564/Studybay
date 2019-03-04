@@ -14,11 +14,24 @@
 						font-size: 50px
 					p, .form-paragraph
 						font-size: 20px
+		#my-content
+			.students
+				.students-block
+					.students-card-block
+						.students-card
+							flex-basis: 47%
+							margin:
+								bottom: 15px
+					.students-form
+						input
+							margin: 0
+						button
+							margin-top: 10px
 
 /**/
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 992px)
+@media only screen and (max-width: 991px)
 	body.ishome
 		#my-header
 			.site-header
@@ -36,13 +49,40 @@
 			.education
 				.education-card
 					flex-wrap: wrap
+					justify-content: center
 					.card
-						margin: 10px auto
-
-						h4
-							font-size: 16px
-						p
-							line-height: 26px
+						margin: 10px 5px
+						flex-basis: 50%
+						.card-content
+							h4
+								font-size: 16px
+							p
+								font-size: 15px
+								line-height: 26px
+			.how-work
+				.how-work-content
+					.photo1
+						width: 80%
+						margin: 0 auto
+					.photo2
+						display: none
+			.warranties
+				.warranties-block
+					.warranties-cards
+						.warranties-wrap-cards
+							flex-direction: column
+							.warranties-card
+								flex-direction: column
+								text-align: center
+			.students
+				.students-block
+					.students-form
+						flex-direction: column
+						text-align: center
+						form
+							margin-top: 10px
+							margin-left: 0
+							flex-direction: column
 
 
 /**/
@@ -78,6 +118,29 @@
 						img
 							width: 26px
 							height: 26px
+		#my-content
+			.education
+				.education-card
+					.card
+						flex-basis: 80%
+			.students
+				.students-block
+					.students-card-block
+						.students-card
+							display: none
+							&:first-child
+								display: block
+								margin: 0 auto
+								flex-basis: 100%
+					.students-form
+						padding: 10px
+						form
+							margin-top: 10px
+							.students-input, .students-email-input,
+							.students-button
+								width: 100%
+								margin-bottom: 8px
+
 /**/
 
 /* Extra Small Devices, Phones */
@@ -100,7 +163,8 @@
 							width: 100%
 		#my-content
 			.education
-				h2
+				padding: 20px 0 0 0
+				.h2
 					font-size: 28px
 					line-height: 25px
 				p
@@ -109,9 +173,42 @@
 
 				.education-card
 					.card
+						flex-basis: 100%
+			.how-work
+				padding: 20px 0 0 0
+				.h2
+					font-size: 28px
+				.how-work-button
+					flex-direction: column
+					.work-button
 						width: 100%
-			
+						margin-bottom: 10px
+					p
+						display: none
+			.warranties
+				padding: 20px 0 0 0
+				.warranties-block
+					.h2
+						font-size: 28px
+					.warranties-cards
+						padding: 20px
+						.warranties-wrap-cards
+							.warranties-card
+								margin-bottom: 30px
+								.warranties-card-photo
+									margin:
+										bottom: 20px
+										top: 0
+										right: 0
+								.warranties-card-content
+									text-align: center
+			.students
+				.students-block
+					.h2
+						font-size: 28px
 
+
+								
 
 
 /**/

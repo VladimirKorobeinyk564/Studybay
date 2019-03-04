@@ -18,12 +18,7 @@ body
 	overflow-x: hidden
 	color: $text
 	input, textarea
-		border: #666 1px solid
 		outline: none
-		&:focus:required:invalid
-			border-color: red
-		&:required:valid
-			border-color: green
 
 .ishome
 	#my-header
@@ -108,14 +103,6 @@ body
 					font-family: 'Arial Rounded MT Bold', sans-serif
 					margin-top: 49px
 				.header-form
-					input
-						height: 60px
-						border-radius: 38px
-						padding-left: 26px
-						font-size: 18px
-						font-family: 'Arial', sans-serif
-						border: 2px solid $orange
-						margin: 0 8px
 					.assignment-input
 						width: 312px
 						margin-left: 0
@@ -124,15 +111,11 @@ body
 	#my-content
 		.education
 			padding: 30px 0
-			text-align: center
-			h2
-				font-size: 40px
-				font-family: 'Arial Rounded MT Bold', sans-serif
-				font-weight: 700
 			p
 				font-size: 20px
 				line-height: 40px
 				font-family: 'Arial', sans-serif
+				text-align: center
 			.education-card
 				display: flex
 				.card
@@ -156,13 +139,9 @@ body
 						p
 							font-size: 16px
 							line-height: 30px
+							text-align: left
 		.how-work
 			padding: 30px 0
-			text-align: center
-			h2
-				font-size: 40px
-				font-family: 'Arial Rounded MT Bold', sans-serif
-				font-weight: 700
 			.how-work-content
 				.how-work-photo
 					img
@@ -189,6 +168,7 @@ body
 				.work-button, .work-button-blue,
 					text-decoration: none
 					line-height: 60px
+					text-align: center
 				p
 					line-height: 60px
 					margin: 0 15px
@@ -202,6 +182,66 @@ body
 						background: #276FC7
 					&:active
 						background: #276FC7
+		.warranties
+			padding: 30px 0
+			.warranties-block
+				.warranties-cards
+					border: 2px solid $orange
+					border-radius: 8px
+					min-height: 230px
+					padding: 40px 20px
+					.warranties-wrap-cards
+						display: flex
+						justify-content: space-between
+						.warranties-card
+							display: flex
+							.warranties-card-photo
+								margin-top: 5px
+								margin-right: 20px								
+							.warranties-card-content
+								text-align: left
+		.students
+			padding: 30px 0
+			.students-block
+				.students-card-block
+					display: flex
+					flex-wrap: wrap
+					justify-content: space-between
+					margin-bottom: 26px
+					.students-card
+						flex-basis: 23%
+						padding: 50px
+						text-align: center
+						min-height: 340px
+						border-radius: 4px
+						background-repeat: no-repeat
+						background-size: cover
+						.students-icon
+							border-radius: 50%
+							margin-bottom: 17px
+						p
+							font-size: 20px 
+							font-weight: 28px
+							margin-bottom: 7px
+						span
+							font-family: "Arial Rounded MT Bold", sans-serif
+							font-size: 56px
+							font-weight: 500
+				.students-form
+					display: flex
+					padding: 25px
+					background: rgba($orange, 0.1)
+					border-radius: 4px
+					p
+						font-size: 22px
+						line-height: 33px
+					form
+						margin-left: 29px
+						.students-input
+							width: 312px
+						.students-email-input
+							width: 244px
+
 
 
 
@@ -229,8 +269,13 @@ body
 	&:active
 		background: #D57012
 		color: #D0D0D0
-
-
+.h2
+	font-size: 40px
+	font-family: 'Arial Rounded MT Bold', sans-serif
+	font-weight: 700
+	text-align: center
+p
+	margin-bottom: 0
 
 .img-responsive
 	display: block
@@ -245,6 +290,14 @@ body
 b, strong
 	font-weight: bold
 
+input
+	height: 60px
+	border-radius: 38px
+	padding-left: 26px
+	font-size: 18px
+	font-family: 'Arial', sans-serif
+	border: 2px solid $orange
+	margin: 0 8px
 
 
 @import "media" // Always at the end
