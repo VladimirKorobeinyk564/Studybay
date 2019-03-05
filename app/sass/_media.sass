@@ -27,6 +27,15 @@
 							margin: 0
 						button
 							margin-top: 10px
+		#my-footer
+			.site-footer
+				.footer-content
+					.footer-inner-content
+						.footer-contacts
+							margin-left: 18px
+							.footer-email
+								margin-right: 20px
+
 
 /**/
 
@@ -72,10 +81,18 @@
 						.warranties-wrap-cards
 							flex-direction: column
 							.warranties-card
-								flex-direction: column
 								text-align: center
+								flex-direction: column
+								.warranties-card-content
+									text-align: center
+								.warranties-card-photo
+									margin-right: 0
 			.students
 				.students-block
+					.students-card-block
+						.students-card
+							margin: 0 auto
+
 					.students-form
 						flex-direction: column
 						text-align: center
@@ -83,6 +100,28 @@
 							margin-top: 10px
 							margin-left: 0
 							flex-direction: column
+			.studybay
+				.studybay-block
+					.studybay-cards
+						.studybay-carousel
+							.studybay-card
+								min-height: 420px
+								padding: 20px
+								.studybay-card-inner
+									flex-direction: column
+									text-align: center
+									.studybay-icon
+										margin-bottom: 40px
+									.studybay-content
+										margin-left: 0
+		#my-footer
+			.site-footer
+				.footer-content
+					.footer-inner-content
+						flex-direction: column
+						.footer-contacts
+							margin-left: 0
+
 
 
 /**/
@@ -140,6 +179,28 @@
 							.students-button
 								width: 100%
 								margin-bottom: 8px
+		#my-footer
+			.site-footer
+				.footer-head
+					.footer-form
+						.footer-button, .footer-assignment-input,
+						.footer-email-input
+							width: 90%
+							margin: 0 auto
+							margin-bottom: 10px
+						.footer-assignment-input,
+						.footer-email-input
+							border: 2px solid $orange
+							box-shadow: none
+
+				.footer-content
+					.footer-inner-content
+						text-align: center
+						flex-direction: column
+						.footer-contacts, .requisites
+							flex-direction: column
+						.requisites
+							position: relative
 
 /**/
 
@@ -206,6 +267,48 @@
 				.students-block
 					.h2
 						font-size: 28px
+						line-height: 30px
+						padding: 0 5px
+			.studybay
+				.studybay-block
+					.h2
+						font-size: 28px
+			.tutors
+				.tutors-block
+					.tutors-carousel
+						.owl-nav
+							.owl-next
+								right: 120px
+								top: 100%
+							.owl-prev
+								left: 120px
+								top: 100%
+					.tutors-footer
+						display: none
+		#my-footer
+			.site-footer
+				.footer-head
+					padding: 30px 0
+					.h2
+						font-size: 28px
+					p
+						font-size: 16px
+						line-height: 26px
+				.footer-content
+					.footer-inner-content
+						.footer-logo
+							margin-bottom: 28px
+						.footer-contacts
+							margin-bottom: 28px
+							.footer-email, .footer-phone
+								a
+									line-height: 0
+						.footer-contacts, .requisites
+						.requisites
+							.requisites-block
+								img
+									margin: 0 2px
+
 
 
 								
